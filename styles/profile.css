@@ -1,0 +1,26 @@
+.profile-img {
+    width: 80px; /* หรือปรับขนาดตามต้องการ */
+    height: 80px;
+    object-fit: cover; /* ให้ภาพเต็มขนาดโดยไม่เสียสัดส่วน */
+    border-radius: 80%; /* ทำให้เป็นวงกลม */
+}
+.list-group-item {
+    border-radius: 10px; /* ทำให้ขอบมน */
+    transition: all 0.3s ease-in-out; /* เพิ่มเอฟเฟกต์เวลาโฮเวอร์ */
+    text-align: center;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa; /* เปลี่ยนสีพื้นหลังเมื่อโฮเวอร์ */
+    transform: scale(1.02); /* ขยายเล็กน้อยเพื่อความโดดเด่น */
+}
+
+.list-group-item.text-danger {
+    color: #dc3545; /* สีแดง */
+    font-weight: bold; /* ทำให้ตัวหนา */
+}
+
+.list-group-item.text-danger:hover {
+    background-color: #ffebee; /* เปลี่ยนสีเมื่อโฮเวอร์ */
+}
+

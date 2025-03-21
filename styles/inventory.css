@@ -1,0 +1,110 @@
+/* Header */
+.header {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Navigation Tabs */
+.category-tabs {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-tab {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.category-tab:hover {
+    color: #dc3545;
+}
+
+/* Search Bar */
+.search-bar .form-control {
+    border-radius: 20px;
+}
+
+.search-bar .btn {
+    border-radius: 20px;
+}
+
+/* Book Section */
+.book-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 40px; /* ความสูงขั้นต่ำ */
+    max-height: 40px; /* ความสูงสูงสุด */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow: hidden; /* ซ่อนข้อความเกิน */
+    white-space: nowrap; /* ไม่ให้ขึ้นบรรทัดใหม่ */
+    text-overflow: ellipsis; /* แสดง ... เมื่อข้อความยาวเกิน */
+}
+
+.book-empty {
+    color: gray;
+}
+
+.bottom-nav {
+    background-color: white;
+    border-top: 1px solid #ddd;
+    padding: 10px 0; /* เพิ่ม padding เพื่อให้มีระยะห่าง */
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+    font-size: 12px; /* ลดขนาดตัวหนังสือให้พอดีกับไอคอน */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px; /* ระยะห่างระหว่างไอคอนกับตัวหนังสือ */
+}
+
+.nav-item i {
+    font-size: 1.5rem;
+}
+
+.nav-item.text-danger {
+    color: #dc3545 !important;
+}
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.book-card {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.book-price {
+    white-space: nowrap;
+}
+
+.book-card img {
+    width: 120px;
+    height: 160px;
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
+
+.book-card .btn {
+    width: 20%;
+    height: 10%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+

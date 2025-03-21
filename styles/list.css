@@ -1,0 +1,15 @@
+.form-switch .form-check-input {
+    width: 40px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .form-switch .form-check-input:checked {
+    background-color: #dc3545;
+  }
+  .form-check-label {
+    font-size: 12px;
+  }
+  
